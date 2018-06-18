@@ -73,6 +73,7 @@ holiday_hash.each do |season|
   season.each do |holiday|
     holiday.each do |supplies|
       season.to_s + ":" + holiday.to_s + ":" + supplies.to_s
+    end
   end
 end
 end
