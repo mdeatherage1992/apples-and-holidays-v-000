@@ -79,6 +79,7 @@ holiday_hash.each do |season,holiday|
   puts "#{new_supplies}"
 end
 end
+end
 
 
 
