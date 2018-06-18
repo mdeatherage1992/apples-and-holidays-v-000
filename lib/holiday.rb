@@ -75,6 +75,7 @@ holiday_hash.each do |season| puts season.to_s.capitalize! + ":"
     end
   end
 end
+end
 
 
 # iterate through holiday_hash and print items such that your readout resembles:
