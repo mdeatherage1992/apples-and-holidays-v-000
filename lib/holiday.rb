@@ -69,14 +69,12 @@ return msg
 end
 
 def all_supplies_in_holidays(holiday_hash)
-holiday_hash.each do |season|
-  season.each do |holiday|
-    holiday.each do |supplies|
-      season.to_s + ":" + holiday.to_s + ":" + supplies.to_s
-    end
-  end
+holiday_hash.each do |season,holiday,supplies|
+  puts "#{season}: #{holiday}: #{supplies}"
 end
 end
+
+
 
 
 # iterate through holiday_hash and print items such that your readout resembles:
