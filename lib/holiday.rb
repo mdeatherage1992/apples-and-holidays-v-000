@@ -81,6 +81,7 @@ puts holiday_hash[season].to_s +":"
 puts holiday_hash[season][holiday].to_s +":"
 puts holiday_hash[season][holiday][supply]
   end
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
