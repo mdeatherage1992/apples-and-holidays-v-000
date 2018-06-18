@@ -74,7 +74,7 @@ puts season.to_s +':'
 season.each do |holiday|
   puts holiday.to_s + ':'
   holiday.each do |supplies|
-    puts holiday.to_s + ':' + supplies
+    puts holiday.to_s + ':' + supplies.to_s
   end
 end
 end
