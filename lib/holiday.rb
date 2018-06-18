@@ -76,6 +76,7 @@ season.each do |holiday|
   holiday.each do |supplies|
     puts holiday + ':' + supplies
   end
+  end
 end
 
 # iterate through holiday_hash and print items such that your readout resembles:
