@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each do |season|
 puts season.to_s
 season.each do |holiday|
-  puts holiday.to_s 
+  puts holiday.to_s
   holiday.each do |supplies|
     puts holiday.to_s + supplies.to_s
   end
