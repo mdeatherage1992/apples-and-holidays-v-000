@@ -74,7 +74,7 @@ holiday_hash.each do |season,holiday|
     binding.pry
     new_season = season.to_s.capitalize!
     new_holiday = holiday.to_s.capitalize!
-    new_supplies = supplies.to_s.capitalize!
+    new_supplies = supplies.to_s.join(' ').capitalize!
   puts "#{new_season}:"
   puts "#{new_holiday}:"
   puts "#{new_supplies}"
