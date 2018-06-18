@@ -71,6 +71,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each do |season,holidays|
   holidays.each do |holiday,supplies|
+    binding.pry
     new_season = season.to_s.capitalize!
     holiday = holiday.to_s.capitalize!
     new_supplies = supplies.join(', ')
