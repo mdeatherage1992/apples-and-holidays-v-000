@@ -74,7 +74,7 @@ holiday_hash.each do |season|
 season.each do |holiday|
   holiday.to_s.capitalize!
   holiday.each do |supplies|
-    holiday.to_s.capitalize! + supplies.to_s.
+   supplies.to_s.
   end
 end
 end
