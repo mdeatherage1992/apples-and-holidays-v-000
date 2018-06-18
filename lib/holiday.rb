@@ -28,8 +28,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
 
   {
     :winter => {
-      :christmas => ["Lights", "Wreath","Balloons"],
-      :new_years => ["Party Hats","Cake"]
+      :christmas => ["Lights", "Wreath"],
+      :new_years => ["Party Hats"]
     },
     :summer => {
       :fourth_of_july => ["Fireworks", "BBQ"]
@@ -41,6 +41,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       :memorial_day => ["BBQ"]
     }
   }
+holiday_hash[:winter][:christmas] = ["Lights","Wreath","Balloons"]
+holiday_hash[:winter][:new_years] = ["Party Hats","Cake"]
 end
 
 
