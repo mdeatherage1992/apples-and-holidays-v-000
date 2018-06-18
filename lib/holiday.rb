@@ -69,9 +69,9 @@ return msg
 end
 
 def all_supplies_in_holidays(holiday_hash)
-holiday_hash.each do {|season| puts season.to_s.capitalize! + ":"}
-  season.each do {|holiday| puts holiday.to_s.capitalize! + ":"}
-    holiday.each do {|supplies| puts supplies.to_s}
+holiday_hash.each do |season| puts season.to_s.capitalize! + ":"
+  season.each do |holiday| puts holiday.to_s.capitalize! + ":"
+    holiday.each do |supplies| puts supplies.to_s
     end
   end
 end
